@@ -1,0 +1,39 @@
+//Thumbnails
+.thumbnail{
+    margin-bottom: 80px;
+    vertical-align: middle;
+
+    .thumbnail__img{
+        border-radius: 50%;
+        width: 150px;
+    
+    }
+
+    .thumbnail__item{
+        @include medium;
+        display: block;
+    }
+
+}
+
+
+//Bootstrap
+.page-item.active .page-link {
+    background-color: $nickel;
+    color: $white;
+}
+
+.page-item.active .page-link{
+    border-color: $eerie;
+}
+
+.page-link {
+    color: $eerie;
+}
+
+.bg-pagination{
+    padding: 25px 0px;
+    background-color: $platinum;
+}
+
+

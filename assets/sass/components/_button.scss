@@ -1,0 +1,17 @@
+//botones
+.main__button{
+    border: none;
+    background-color: $nickel;
+    color: $white;
+    padding: 15px 15px;
+    margin: 50px 0px 80px 0px;
+    border-radius: 25px;
+    transition: ease 0.2s;
+    &:hover{
+        background-color: $platinum;
+    }
+    &:focus{
+        background-color: $nickel;
+        border: 2px solid $platinum;
+    }
+}

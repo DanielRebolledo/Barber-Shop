@@ -1,0 +1,37 @@
+//font
+//h1
+@mixin xx-large {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    color: #ffffff;
+}
+//h2
+@mixin x-large {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+//h3
+@mixin large {
+    font-family: 'Playfair Display', serif; 
+    font-size: 18px;
+    font-weight: 400;
+}
+
+//p
+@mixin medium {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: 300;
+}
+
+//a
+@mixin small {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 12px;
+    font-weight: 400;
+}
